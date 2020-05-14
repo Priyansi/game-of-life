@@ -1,4 +1,3 @@
-#!python3
 import random
 import itertools
 ALL_NEIGHBOURS = [
@@ -15,7 +14,7 @@ def add_blacks_around(grid):
 
 
 def create_grid(rows, columns):
-    return add_blacks_around([''.join(str(random.randint(0, 1)) for row in range(rows)) for column in range(columns)])
+    return add_blacks_around([''.join(str(random.randint(0, 1)) for column in range(columns)) for row in range(rows)])
 
 
 def update_grid(grid, rows, columns):
@@ -45,4 +44,4 @@ def main_game(rows, columns, CYCLES=5):
 
 
 if __name__ == "__main__":
-    print(main_game(3, 3))
+    print(main_game(3, 2))
