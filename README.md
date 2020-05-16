@@ -6,5 +6,5 @@ Conway's Simulation called Game of Life implemented using Pygame.
 2. Launch the executable.
 3. Navigation -
   - `space` for start/stop.
-  - &uparrow
+  - &#8593;
 4. Watch the magic.
